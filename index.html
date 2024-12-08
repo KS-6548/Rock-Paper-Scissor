@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table cellspacing="10px">
+            <tr>
+                <td colspan="2"><h1 >Chance: <span id="chance">10</span></h1></td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>YOU</h1>
+                </td>
+                <td>
+                    <h1>AI</h1> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="player" id="user">
+                        
+                    </div>
+                </td>
+                <td>
+                    <div class="computer" id="AI" >
+            
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <h1 id="res">START GAME</h1>
+    <div class="btn">
+        <button class="roc" onclick="rock()"></button>
+        <button class="pap" onclick="paper()"></button>
+        <button class="scis" onclick="scissor()"></button>
+    </div>
+    
+   <script src="./script.js"></script>
+</body>
+</html>
